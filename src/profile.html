@@ -1,0 +1,47 @@
+---
+layout: default
+title: Profile
+---
+
+
+<h1 class="page__title">Профиль</h1>
+
+
+<form class="form" action="/" method="post">
+
+	<div class="account">
+		<div class="account__form">
+			<div class="form__group form__group--md">
+				<input tabindex="1" class="form__control" type="text" placeholder="Ваше имя" value="Дмитрий Валак">
+				<span class="form__line"></span>
+			</div>
+
+			<div class="form__group form__group--md">
+				<input tabindex="2" class="form__control" type="email" placeholder="E-Mail"
+					value="dmitryvalak8814@gmail.com">
+				<span class="form__line"></span>
+			</div>
+
+			<div class="form__group form__group--md">
+				<input tabindex="3" class="form__control" type="password" placeholder="Новый пароль">
+				<span class="form__line"></span>
+			</div>
+
+			<div class="form__group form__group--md">
+				<input tabindex="4" class="form__control" type="password" placeholder="Потвердите новый пароль">
+				<span class="form__line"></span>
+			</div>
+		</div>
+
+		<div class="account__avatar">
+			<img src="assets/images/avatar.jpg" alt="">
+
+			<label class="account__file">
+				<input type="file">
+				выбрать фото профиля
+			</label>
+
+		</div>
+	</div>
+	<button class="btn btn--blue btn--rounded btn--sm" type="submit">Сохранить</button>
+</form>
